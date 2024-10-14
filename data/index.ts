@@ -6,7 +6,7 @@ import { FaRobot } from "react-icons/fa";
 import { PiMicrosoftPowerpointLogoFill } from "react-icons/pi";
 import { MdBrandingWatermark } from "react-icons/md";
 
-const siteName = "YouTubeToSlides";
+const siteName = "Quick Rank AI";
 
 const features = [
   {

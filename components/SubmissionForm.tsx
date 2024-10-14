@@ -91,6 +91,25 @@ const SubmissionForm = ({ user }: { user: KindeUser }) => {
               </SelectContent>
             </Select>
             <br />
+
+            <Select name="social">
+              <SelectTrigger
+                className="w-full text-gray-400 bg-white rounded-lg focus:outline-none px-8 border border-gray-200 h-16"
+                name="social"
+              >
+                <SelectValue placeholder="Select the Medium" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectGroup>
+                  <SelectLabel>Select Medium</SelectLabel>
+                  <SelectItem value="Medium">Medium</SelectItem>
+                  <SelectItem value="Facebook">Facebook</SelectItem>
+                  <SelectItem value="Instagram">Instagram</SelectItem>
+                  <SelectItem value="Twitter">Twitter</SelectItem>
+                </SelectGroup>
+              </SelectContent>
+            </Select>
+            <br />
             {error && (
               <div className="bg-red-400 text-white p-4 rounded-xl text-center">
                 {error}

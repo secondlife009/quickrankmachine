@@ -34,11 +34,10 @@ const Hero = () => {
               <RiSlideshowLine className="h-6 w-6 inline-block" />
             </h3>
             <h1 className="mb-6 text-2xl font-bold leading-snug text-gray-900 sm:text-4xl lg:text-6xl lg:leading-[1.2]">
-              Generate educational Powerpoints from YouTube videos
+              Turn Any Video Into Cash-Generating Blog Instantly!
             </h1>
             <p className="mx-auto mb-9 max-w-[800px] text-base font-medium text-gray-600 sm:text-2xl sm:leading-[1.44]">
-              An online tool for teachers that allows you to convert educational
-              YouTube videos into educational presentations.
+              An online tool that allows you to convert any YouTube video into SEO-optimized blog posts designed to drive traffic and generate revenue.
             </p>
             <div className="flex items-center flex-1 md:justify-center gap-4">
               {user ? (

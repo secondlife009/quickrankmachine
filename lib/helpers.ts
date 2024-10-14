@@ -64,6 +64,8 @@ export async function RunAuthCheck() {
 }
 
 export async function CheckVideoDetails(id: string) {
+  console.log("process.env.RAPID_API_KEY", process.env.RAPID_API_KEY);
+  
   const options = {
     method: "GET",
     url: "https://yt-api.p.rapidapi.com/video/info",
